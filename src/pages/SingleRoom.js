@@ -31,7 +31,7 @@ function SingleRoom() {
     pets,
     images,
   } = room;
-  const [mainImg, ...defaultImg] = images;
+  const [, ...defaultImg] = images;
   return (
     <React.Fragment>
       <StyledHero img={images[0]}>
