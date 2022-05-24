@@ -103,6 +103,7 @@ function RoomsFilter({ rooms }) {
               type="number"
               name="minSize"
               id="size"
+              step="100"
               value={minSize}
               onChange={handleChange}
             />
@@ -111,6 +112,7 @@ function RoomsFilter({ rooms }) {
               type="number"
               name="maxSize"
               id="size"
+              step="100"
               value={maxSize}
               onChange={handleChange}
             />
